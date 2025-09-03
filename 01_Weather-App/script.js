@@ -13,7 +13,8 @@ async function checkWeather(){
 	document.querySelector(".temp").innerHTML = data.main.temp;
 	// قال ايييييييييه بيسالونى 😏
 	// عنك يا نور عيونى 🌚
-	
+	// معقول اكون بحبك (الصراحه اه)
+
 }
 
 
