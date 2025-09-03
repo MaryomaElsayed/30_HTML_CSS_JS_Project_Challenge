@@ -5,6 +5,10 @@
 	font-family: sans-serif;
 }
 
+body {
+	background-color: #232437;
+}
+
 .card{
 	width: 90%;
 	max-width: 470px;

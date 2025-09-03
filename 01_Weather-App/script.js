@@ -10,10 +10,13 @@ async function checkWeather(){
 	// update the dom let's goooooooooooooo !
 	// يالى ابتديت الحب معااااك عمرى ابتدى و انا ويااااااااااك
 	document.querySelector(".city").innerHTML = data.name;
-	document.querySelector(".temp").innerHTML = data.main.temp;
+	document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°C";
 	// قال ايييييييييه بيسالونى 😏
 	// عنك يا نور عيونى 🌚
 	// معقول اكون بحبك (الصراحه اه)
+	document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
+	document.querySelector(".humidity").innerHTML = data.main.humidity + " %";
+
 
 }
 
