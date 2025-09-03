@@ -10,7 +10,10 @@ async function checkWeather(){
 	// update the dom let's goooooooooooooo !
 	// يالى ابتديت الحب معااااك عمرى ابتدى و انا ويااااااااااك
 	document.querySelector(".city").innerHTML = data.name;
-
+	document.querySelector(".temp").innerHTML = data.main.temp;
+	// قال ايييييييييه بيسالونى 😏
+	// عنك يا نور عيونى 🌚
+	
 }
 
 
