@@ -13,10 +13,15 @@ async function checkWeather(city){
 
 	let cityName = data.name;
 	if (cityName.toLowerCase() === "cairo") {
+		// الا رايك فى الشياكه 🌚
 		cityName = "Cairo ❤️";
 		document.body.style.backgroundImage = "url('images/H2.jpg')";
     	document.body.style.backgroundSize = "cover";
     	document.body.style.backgroundPosition = "center"; 
+	} else {
+		// نرجع الخلفيه للونها الاصلى
+		document.body.style.backgroundImage = "none";
+		document.body.style.backgroundColor = "#232437";
 	}
 
 	document.querySelector(".city").innerHTML = cityName;
