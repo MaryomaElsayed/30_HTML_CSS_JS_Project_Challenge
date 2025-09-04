@@ -62,20 +62,3 @@ searchBtn.addEventListener("click", ()=>{
 
 // Default city
 checkWeather("Alexandria");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,0 +1,34 @@
+.card {
+    background-color: lightpink;
+    width: 80%;
+    max-width: 470px;
+    margin: 6rem auto;
+    display: flex;
+    flex-direction: column; /* يخلي العناصر فوق وتحت */
+    align-items: center;    /* يوسّطهم في النص */
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+
+.timer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.timer .time {
+    font-size: 3rem;
+    padding: 0 0.5rem;
+}
+
+.btns {
+    display: flex;
+    gap: 0.5rem; /* مسافة بين الأزرار */
+    padding: 2rem;
+}
+
+.btns img{
+	width: 100px;
+}
+
