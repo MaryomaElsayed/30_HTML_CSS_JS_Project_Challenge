@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	font-size: 2.5rem;
+	color: white;
+	height: 100vh; /* full screen height */
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;
+    background-color: #ffe9f3;
+}
+
+.card{
+	width: 90%;
+	max-width: 25rem;
+	background-color: #feb3d2;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 25px;
+	padding: 1.5rem;
+}
+
+.month {
+	background-color: #ffccf1;
+	padding: 0.6rem;
+	border-radius: 30px;
+	color: #773159;
+}
+
+.sec {
+	background-color: white;
+	margin-top: 1.2rem;
+	padding-bottom: 1.2rem;
+	border-radius: 20px;
+	color: #773159;
+}
+
+.dayName {
+	margin-top: 1rem;
+	padding: 1rem;
+	border-radius: 20px;
+}
+
+.dayNum{
+	padding: 0.2rem;
+	margin-bottom: 1.5rem;
+	font-size: 4rem;
+	font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
