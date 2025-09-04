@@ -9,6 +9,20 @@ async function checkWeather(city){
 	const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
 	const data = await response.json();
 
+
+	// ايرور هاندلنج اهو
+	if (data.cod == "404") {
+        document.querySelector(".city").innerHTML = "اكتب اسم المدينة صح 😒";
+        document.querySelector(".temp").innerHTML = "--";
+        document.querySelector(".wind").innerHTML = "--";
+        document.querySelector(".humidity").innerHTML = "--";
+
+        document.body.style.backgroundImage = "none";
+        document.body.style.backgroundColor = "#232437";
+
+        return; // 
+    }
+
 	console.log(data);
 
 	let cityName = data.name;
