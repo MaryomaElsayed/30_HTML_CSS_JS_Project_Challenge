@@ -70,6 +70,45 @@ body {
     border-radius: 20px;
 }
 
+/* شرح مريومى :
+bottom: 1rem ===>
+Moves the element 1rem up from the bottom edge of its parent (or the page).
+و ال right زيه */
+
+.input-box img{
+	width: 1.4rem;
+	position: absolute;
+	bottom: 1rem;
+	right: 1rem;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
