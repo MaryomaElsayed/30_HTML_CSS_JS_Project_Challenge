@@ -54,7 +54,8 @@ body {
 .notes-container {
     width: 100%;             
     display: flex;
-    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
 }
 
 .input-box {
@@ -70,7 +71,7 @@ body {
     border-radius: 20px;
 }
 
-/* شرح مريومى :
+/* شرح مريومى :s
 bottom: 1rem ===>
 Moves the element 1rem up from the bottom edge of its parent (or the page).
 و ال right زيه */
