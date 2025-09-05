@@ -52,15 +52,15 @@ body {
 }
 
 .notes-container {
-    width: 100%;             /* take full width of the page */
+    width: 100%;             
     display: flex;
-    justify-content: center; /* keep the note centered */
+    justify-content: center; 
 }
 
 .input-box {
     position: relative;
-    width: 100%;        /* stretch as much as possible */
-    max-width: 500px;   /* but stop at 500px */
+    width: 100%;        
+    max-width: 500px;   
     min-height: 150px;
     background: #fff;
     color: #333;
@@ -82,53 +82,3 @@ Moves the element 1rem up from the bottom edge of its parent (or the page).
 	right: 1rem;
 	cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
