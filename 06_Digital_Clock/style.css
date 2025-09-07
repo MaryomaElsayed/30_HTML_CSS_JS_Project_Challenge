@@ -1,0 +1,15 @@
+body {
+	background: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+    margin: 0; 
+}
+
+.clock {
+	color: #20c20e;
+	font-size: 4rem;
+	letter-spacing: 8px;
+}
+

@@ -1,0 +1,24 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.navbar {
+	background-color: yellow;
+	display: flex;
+	margin: auto;
+	font-size: 2rem;
+	justify-content: center;
+	padding-top: 0.3rem;
+}
+
+.navbar .navy{
+}
+
+.navbar .navy a{
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+}
